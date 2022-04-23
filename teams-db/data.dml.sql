@@ -1,5 +1,5 @@
 /*
- * DML = Data Lanipulation Language
+ * DML = Data Manipulation Language
  * Command lines from 'teams-db' folder:
  * psql -h localhost -p 5432 -U postgres -d teams
  * \i data.dml.sql

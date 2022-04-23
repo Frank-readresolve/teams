@@ -21,7 +21,7 @@ public class TeamController {
 	this.service = service;
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/{id}") // /teams/{id} /teams/1
     public Team getById(@PathVariable("id") Long id) {
 	// On appelle la methode qui rend le service souhaite
 	return service.getById(id);
